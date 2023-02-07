@@ -48,7 +48,7 @@ const HeroSection = () => {
             data-aos="slide-left"
           />
         </div>
-        <div className="absolute top-[480px] right-[80px]  md:right-[90px] md:top-[280px]">
+        <div className="absolute top-[560px] right-[70px]  md:right-[90px] md:top-[280px]">
           <img
             className="h-10 md:h-20"
             src="./svgs/githublogo.svg"
