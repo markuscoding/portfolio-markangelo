@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <div
       name="skills"
-      className="flex flex-col w-full h-screen bg-[#0a192f] text-gray-300 md:py-[8rem] py-20  px-4"
+      className="flex flex-col w-full h-screen bg-[#0a192f] text-gray-300 py-8 px-4"
     >
       <div
         className="max-w-[1240px] mx-auto mt-14 px-12 flex flex-col items-center justify-center h-full "
