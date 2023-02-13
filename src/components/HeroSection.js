@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-scroll";
 
 const HeroSection = () => {
   useEffect(() => {
@@ -23,7 +24,7 @@ const HeroSection = () => {
           />
         </div>
 
-        <div className="absolute top-[120px] left-[60px] md:left-[250px] md:top-[150px] ">
+        <div className="absolute top-[120px] left-[60px] md:left-[250px] md:top-[120px] ">
           <img
             className="h-10 md:h-20"
             src="./svgs/code.svg"
@@ -32,7 +33,7 @@ const HeroSection = () => {
           />
         </div>
 
-        <div className="absolute top-[110px] right-[70px] md:right-[240px] md:top-[480px] ">
+        <div className="absolute top-[110px] right-[70px] md:right-[240px] md:top-[510px] ">
           <img
             className="h-10 md:h-20 "
             src="./svgs/html5.svg"
@@ -40,7 +41,7 @@ const HeroSection = () => {
             data-aos="slide-left"
           />
         </div>
-        <div className="absolute top-[300px] right-[20px] md:right-[240px] md:top-[155px] ">
+        <div className="absolute top-[300px] right-[20px] md:right-[240px] md:top-[120px] ">
           <img
             className="h-10 md:h-20 "
             src="./svgs/react.svg"
@@ -48,7 +49,7 @@ const HeroSection = () => {
             data-aos="slide-left"
           />
         </div>
-        <div className="absolute top-[560px] right-[70px]  md:right-[90px] md:top-[280px]">
+        <div className="absolute top-[560px] right-[70px]  md:right-[90px] md:top-[300px]">
           <img
             className="h-10 md:h-20"
             src="./svgs/githublogo.svg"
@@ -56,7 +57,7 @@ const HeroSection = () => {
             data-aos="slide-left"
           />
         </div>
-        <div className="absolute top-[560px] left-[80px] md:left-[255px] md:top-[500px] ">
+        <div className="absolute top-[560px] left-[80px] md:left-[255px] md:top-[510px] ">
           <img
             className="h-10 md:h-20"
             src="./svgs/js.svg"
@@ -82,7 +83,9 @@ const HeroSection = () => {
         </p>
         <div>
           <button className="text-white group border-2 rounded-xl mt-5 px-6 py-3 my-2 flex items-center hover:bg-blue-600 hover:border-blue-300">
-            View Work
+            <Link to="projects" smooth={true} duration={500}>
+              View Work
+            </Link>
             <span className="group-hover:rotate-90 duration-500">
               <HiArrowNarrowRight className="ml-3 " />
             </span>

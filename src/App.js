@@ -3,7 +3,6 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import About from "./components/About";
 import Skills from "./components/Skills";
-import Contact from "./components/Contact";
 import LoadingPage from "./components/LoadingPage";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";
@@ -29,7 +28,6 @@ function App() {
           <About />
           <Skills />
           <Projects />
-          <Contact />
           <Footer />
         </>
       )}

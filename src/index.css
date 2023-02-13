@@ -18,6 +18,12 @@
     @apply cursor-pointer;
     @apply hover:bg-blue-800 rounded-md duration-200;
   }
+  li.outline {
+    @apply px-4;
+    @apply font-bold;
+    @apply cursor-pointer;
+    @apply bg-orange-800;
+  }
 }
 .content-div {
   background-repeat: no-repeat;

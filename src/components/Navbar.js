@@ -8,17 +8,14 @@ const Navbar = () => {
 
   return (
     <div className="fixed w-full h-[80px] z-[9999999] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
-      <div className="p-5 text-2xl">
-        <h1>Mark Angelo</h1>
+      <div className="p-5 text-2xl cursor-pointer">
+        <Link to="home" smooth={true} duration={500}>
+          Mark Angelo
+        </Link>
       </div>
 
       {/* menu */}
       <ul className="hidden md:flex">
-        <li>
-          <Link to="home" smooth={true} duration={500}>
-            Home
-          </Link>
-        </li>
         <li>
           <Link to="about" smooth={true} duration={500}>
             About
@@ -34,10 +31,10 @@ const Navbar = () => {
             Projects
           </Link>
         </li>
-        <li>
-          <Link to="contact" smooth={true} duration={500}>
-            Contact
-          </Link>
+        <li className="outline">
+          <a target="_blank" href="./images/CV.pdf">
+            Resume
+          </a>
         </li>
       </ul>
 
@@ -54,11 +51,6 @@ const Navbar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-2xl">
-          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
-            Home
-          </Link>
-        </li>
         <li className="py-6 text-2xl">
           {" "}
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
@@ -82,11 +74,10 @@ const Navbar = () => {
             Projects
           </Link>
         </li>
-        <li className="py-6 text-2xl">
-          {" "}
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
-            Contact
-          </Link>
+        <li className="outline">
+          <a target="_blank" href="./images/CV.pdf">
+            Resume
+          </a>
         </li>
       </ul>
     </div>

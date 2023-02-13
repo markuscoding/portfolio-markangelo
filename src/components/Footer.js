@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook, FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 const Footer = () => {
   return (
     <>
@@ -9,9 +9,6 @@ const Footer = () => {
             className="flex items-center justify-center
           text-gray-300  gap-5 text-4xl mb-5 cursor-pointer"
           >
-            <a href="https://facebook.com" rel="noopener noreferrer">
-              <FaFacebook />
-            </a>
             <a
               href="https://www.linkedin.com/in/mark-angelo-magnayon-5911251b2/"
               rel="noopener noreferrer"
@@ -30,7 +27,7 @@ const Footer = () => {
           </div>
           <div className=" text-gray-300 text-center font-bold p4">
             {" "}
-            © 2023 Copyright: Mark Angelo
+            2023 | Developed and Designed by Mark Angelo
           </div>
         </div>
       </div>
