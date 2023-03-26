@@ -24,7 +24,7 @@ const HeroSection = () => {
           />
         </div>
 
-        <div className="absolute top-[120px] left-[60px] md:left-[250px] md:top-[120px] ">
+        <div className="absolute top-[120px] left-[60px] md:left-[250px] md:top-[130px] ">
           <img
             className="h-10 md:h-20"
             src="./svgs/code.svg"
@@ -33,7 +33,7 @@ const HeroSection = () => {
           />
         </div>
 
-        <div className="absolute top-[110px] right-[70px] md:right-[240px] md:top-[510px] ">
+        <div className="absolute top-[110px] right-[70px] md:right-[240px] md:top-[630px] ">
           <img
             className="h-10 md:h-20 "
             src="./svgs/html5.svg"
@@ -41,7 +41,7 @@ const HeroSection = () => {
             data-aos="slide-left"
           />
         </div>
-        <div className="absolute top-[300px] right-[20px] md:right-[240px] md:top-[120px] ">
+        <div className="absolute top-[300px] right-[20px] md:right-[240px] md:top-[130px] ">
           <img
             className="h-10 md:h-20 "
             src="./svgs/react.svg"
@@ -57,7 +57,7 @@ const HeroSection = () => {
             data-aos="slide-left"
           />
         </div>
-        <div className="absolute top-[560px] left-[80px] md:left-[255px] md:top-[510px] ">
+        <div className="absolute top-[560px] left-[80px] md:left-[255px] md:top-[630px] ">
           <img
             className="h-10 md:h-20"
             src="./svgs/js.svg"

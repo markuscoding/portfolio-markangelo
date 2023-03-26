@@ -6,6 +6,7 @@ import Skills from "./components/Skills";
 import LoadingPage from "./components/LoadingPage";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -28,6 +29,7 @@ function App() {
           <About />
           <Skills />
           <Projects />
+          <Contact />
           <Footer />
         </>
       )}
